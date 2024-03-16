@@ -1,0 +1,285 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #010127;
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+    background-image: url("public/backgnd.png");
+	background-size: cover;
+	background-position: center;
+	padding: 10px 20%;
+	position: relative;
+}
+
+.profile-img {
+    top: 196px;
+    left: 200px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+.textwc1 {
+    top: 273px;
+    left: 529px;
+    color: #988e9f;
+    position: absolute;
+    font-size: 25px;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+}
+.textmyname {
+    top: 310px;
+    left: 527px;
+    color: #3d3afc;
+    position: absolute;
+    font-size: 50px;
+    font-family: Roboto Condensed;
+    font-weight: 700;
+}
+.my-intro-block {
+    top: 374px;
+    left: 530px;
+    color: #ffffff;
+    position: absolute;
+    font-size: 35px;
+}
+.my-intro-block-txex01 {
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+}
+.my-intro-block-txex02 {
+    font-family: "Sansita Swashed";
+    font-weight: 400;
+}
+.my-intro-block-txex03 {
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+}
+.my-intro-block-txex04 {
+    font-family: "Courier Prime";
+    font-weight: 400;
+}
+.my-intro-block-txex05 {
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+}
+
+.workline {
+    width: 0;
+    position: absolute;
+    border-left: 2px solid #3d3afc;
+    height: 2000px;
+    top: 514px;
+    left: 354px;
+}
+
+.dot1 {height: 15px;width: 15px;left: -8px;/**/top: -2px;/**/position: absolute;background-color: #3d3afc;border-radius: 50%;display: inline-block;}
+
+.scroll {
+	top: 160px;
+    left: 10px;
+    color: #3d3afc;
+    font-size: 15px;
+    position: absolute;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+}
+
+/*-------------------topics-----------------------------*/
+.topics{
+	padding: 170px 347px;
+	position: relative;
+}
+.dot2 {height: 15px;width: 15px; /**/top: 60px;/**/ position: absolute;background-color: #3d3afc;border-radius: 50%;display: inline-block;}
+
+.works { 
+	position: absolute;
+	color: #988e9f;
+	font-size: 20px;
+	font-family: "Roboto Condensed";
+    font-weight: 400;
+    left: 370px;
+    top: 57px;
+}
+.alltopics{
+	color: #988e9f;
+    position: absolute;
+    font-size: 20px;
+    font-family: Roboto Condensed;
+    font-weight: 500;
+    left: 430px;
+    top: 85px;
+}
+
+/*-------------------iot-----------------------------*/
+.internetofthings-1{
+	padding: 300px 347px;
+	position: relative;
+}
+.dot3 {height: 15px;width: 15px; /**/top: 30px;/**/ position: absolute;background-color: #3d3afc;border-radius: 50%;display: inline-block;}
+.iot1 {
+    position: absolute;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+    left: 370px;
+    top: 24px;
+}
+.bg-iot {
+    position: absolute;
+    color: #03033c;
+    font-size: 300px;
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+    left: 1100px;
+    top: 3px;
+}
+
+/*-------------------posts-----------------------------*/
+.posts-- {
+    position: absolute;
+}
+
+.iot-post1 {
+    position: absolute;
+    left: -75px;
+    top: -100px;
+}
+.iot-post1-text {
+    position: absolute;
+    color: #ffffff;
+    font-size: 35px;
+    font-family: "Roboto Condensed";
+    font-weight: 800;
+    left: -60px;
+    top: 24px;
+    z-index: 10;
+}
+/*----xxxxxx---*/
+.beforegradient:before {
+    background-image: linear-gradient(65deg,rgba(16,9,27,.8),transparent 50%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.beforegradient:hover {
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+/*xxxxxxxxxxxx*/
+
+.digitalel {
+    padding: 100px 347px;
+    position: relative;
+}
+
+/*------------------about--------------------------*/
+.about {
+    padding: 100px 347px;
+    position: relative;
+}
+.dot4 {height: 15px;width: 15px; /**/top: 30px;/**/ position: absolute;background-color: #3d3afc;border-radius: 50%;display: inline-block;}
+
+
+/*------------------contact--------------------------*/
+.contactdetails-1 {
+    padding: 200px 347px;
+    position: relative;
+}
+
+.dot5 {height: 15px;width: 15px; /**/top: 30px;/**/ position: absolute;background-color: #3d3afc;border-radius: 50%;display: inline-block;}
+
+.contact {
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    left: 370px;
+    top: 26px;
+}
+
+.findmeon {
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    left: 370px;
+    top: 125px;
+}
+
+.social-media-links {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 80% 80% 80%;
+    margin-left: 55px;
+    
+
+    font-size: 18px;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+}
+/*-------------linksss-----*/
+
+.mail-link {
+    text-decoration: none;color: #3d3afc;display: flex;align-items: center;
+
+    grid-column-start: 1;
+    grid-row-start: 1; 
+    svg {transform: translateY(-1px);} /*----------move in y axis-----*/
+}
+.linked-in {
+    text-decoration: none;color: #3d3afc;display: flex;align-items: center; 
+
+    grid-column-start: 2;
+    grid-row-start: 1;
+    svg {transform: translateY(-2px);}/*----------move in y axis-----*/
+}
+.github-link {
+    text-decoration: none;color: #3d3afc;display: flex;align-items: center; 
+
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+.x-twitter {
+    text-decoration: none;color: #3d3afc;display: flex;align-items: center;
+
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+.reddit- {
+    text-decoration: none;color: #3d3afc;display: flex;align-items: center;
+
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.insta-gram {
+    text-decoration: none;color: #3d3afc;display: flex;align-items: center;
+
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+/*--------------------------------*/
+.copywrite {
+    position: absolute;
+    color: #988e9f;
+    font-size: 15px;
+    font-family: "Courier Prime";
+    font-weight: 400;
+    left: 367px;
+    top: 378px;
+}
